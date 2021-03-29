@@ -8,42 +8,61 @@ html {
   box-sizing: inherit;
 }
 
-h1 {
-  font-weight: normal;
-  margin-bottom: 0;
-  font-size: 1.49rem;
-  color: #222;
-}
-
-header p {
-  font-style: italic;
-  font-size: .93em;
-  margin-top: 0;
-  border-bottom: 1px solid;
-  border-color: #999;
-  padding-top: .09em;
-  padding-bottom: 1.2em;
-}
-
-header {
-  padding: 0 .32rem;
-  margin-top: 0;
-}
-
-article {
-  padding: 0 .32rem;
-  font-size: 1.09rem;
-  margin-top: 0;
-}
-
-article p {
-  font-size: .93em;
+article header {
+  font-size: 1.125rem;
+  margin-bottom: 1.3rem;
 }
 
 body {
   color: #222;
+  margin: 0;
+}
+
+article h1 {
+  font-weight: normal;
+  margin-left: .65rem;
+  margin-bottom: -.13rem;
+  font-size: 1.5rem;
+  color: #222;
+}
+
+article header p {
+  font-style: italic;
+  font-size: .895em;
+  margin-top: 0;
+  border-bottom: 1px solid;
+  border-color: #999;
+  padding-top: .09em;
+  padding-bottom: 1.35em;
+}
+
+header {
+  padding: 0 .32rem;
+  margin: 1em -.3rem;
+}
+
+article {
+  padding: 0 .32rem;
+  font-size: 1.05rem;
+  margin-top: 0;
+}
+
+article p {
+  font-size: .96em;
+  margin: 1.3rem .65rem 0;
+}
+
+article ol {
+  padding: 0;
+  margin: 1.2rem 0 -.05rem 1.65rem;
 }
 
 .quote {
+  margin: 0;
+}
 
+blockquote {
+  color: #555;
+  font-size: 1.2rem;
+  margin: 1.4rem 2.1rem -.05rem 2.4rem;
 }
